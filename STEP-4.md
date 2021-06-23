@@ -50,4 +50,6 @@ See how the file we are sending back from express is now the index.html file ins
 
 app.use(express.static('src/client'))
 
+app.use(express.static('dist'))
+
 **You have been successful when can run your express server and see our web page with no styles**
